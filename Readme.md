@@ -15,3 +15,20 @@ if len(sys.argv) < 2:
 else:
     fileame = 'Sample/solar.csv'
 ```
+## Data Types
+### Three primitive types
+1. Integers
+2. Floating point numbers
+3. Strings
+
+None is used as a special type to represent optional or missing values.
+For conditions None will represent as false
+```
+variable = None
+if variable is None:
+    print("assign variable to a value)
+```
+### Tuples just hold differnet type of values together
+e.g.
+```
+li = ("Mercury", 0.39, 88)
