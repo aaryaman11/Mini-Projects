@@ -43,7 +43,7 @@ name, distance, period = li
 ### One caveat, when unpacking a tuple the number of variables on the left must match the number of elements in the tuple on the right.
 ```a, b = (1, 2, 3)  # This will raise an exception
 ```
-### Refrences and avoidance in modifying original object
+### References and avoidance in modifying original object
 When you assign a variable to another variable, you are creating a reference to the original object, not a copy of it.
 ```
 a = [1, 2, 3]
