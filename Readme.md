@@ -32,3 +32,5 @@ if variable is None:
 e.g.
 ```
 li = ("Mercury", 0.39, 88)
+```
+Special case tuple --> 0-tuple --> k = ()
