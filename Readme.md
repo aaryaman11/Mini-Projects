@@ -43,3 +43,22 @@ name, distance, period = li
 ### One caveat, when unpacking a tuple the number of variables on the left must match the number of elements in the tuple on the right.
 ```a, b = (1, 2, 3)  # This will raise an exception
 ```
+### Refrences and avoidance in modifying original object
+When you assign a variable to another variable, you are creating a reference to the original object, not a copy of it.
+```
+a = [1, 2, 3]
+b = a  # b references the same list as a
+b.append(4)
+print(a)  # Output: [1, 2, 3, 4]
+```
+Memory Diagram:
+```
+a ─┬──> [1, 2, 3]
+b ─┘
+```
+To avoid modifying the original object, you can create a copy of it using slicing or the `list()` constructor.
+```c = a[:]  # c is a copy of the list referenced by a
+d = list(a)  # d is another copy of the list referenced by a
+```
+
+### Dictionaries 
