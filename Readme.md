@@ -28,9 +28,15 @@ variable = None
 if variable is None:
     print("assign variable to a value)
 ```
-### Tuples just hold differnet type of values together
+### Tuples just hold differnet type of values together and they are immutable.
 e.g.
 ```
 li = ("Mercury", 0.39, 88)
 ```
 Special case tuple --> 0-tuple --> k = ()
+Tuples are  great to pack objects together, which are related to each other. Think of like a row in a database.
+
+Tuples can be unpacked into multiple variables
+```
+name, distance, period = li
+```
