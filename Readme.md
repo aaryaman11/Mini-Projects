@@ -40,3 +40,6 @@ Tuples can be unpacked into multiple variables
 ```
 name, distance, period = li
 ```
+### One caveat, when unpacking a tuple the number of variables on the left must match the number of elements in the tuple on the right.
+```a, b = (1, 2, 3)  # This will raise an exception
+```
