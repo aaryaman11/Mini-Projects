@@ -63,3 +63,10 @@ d = list(a)  # d is another copy of the list referenced by a
 
 ### Dictionaries 
 It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary
+```
+{
+    'price': 139.99,
+    'Shape': 'Sphere',
+    'Earth': (1.00, 365),
+}
+```
