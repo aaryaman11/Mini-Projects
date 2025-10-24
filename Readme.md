@@ -71,3 +71,66 @@ t = {
 }
 ```
 to get the value of price from dictionary we would use `print(t['price'])`
+#### Disclaimer
+ --> A Python dictionary uses hashing to quickly find values by their keys.
+
+1. Each key is hashed (turned into a numeric “fingerprint”).
+
+2. The dictionary uses that hash to decide where to store or look up the value.
+
+Because of this:
+
+Keys must be hashable → meaning their hash value cannot change during their lifetime.
+
+Therefore, mutable types (like lists, dicts, sets) cannot be keys — because if their contents change, their hash would change, and the dictionary would no longer be able to find them in the right “bucket”.  
+
+*  Values can be any type — mutable or immutable.
+
+* You can modify mutable values in place without issues, because the dictionary doesn’t hash values.
+
+```
+data = {"numbers": [1, 2, 3]}
+data["numbers"].append(4)      # modifies existing list
+data["numbers"][1] = 99        # updates index 1 of list
+print(data)  # {'numbers': [1, 99, 3, 4]}
+
+```
+##### Common confusion point 
+###### Modification and memory references
+when you change a list in place (like [1, 2, 3] → [1, 4, 3]), the reference (memory address) stays the same.
+
+You’re modifying the contents of the list, not creating a new list object.
+```
+nums = [1, 2, 3]
+print(id(nums))   # say, 140347891123456
+
+nums[1] = 4
+print(nums)       # [1, 4, 3]
+print(id(nums))   # same number -> 140347891123456
+```
+Same id → same memory reference → the object itself didn’t change.
+Only its internal elements did.
+
+###### Contrast that with reassignment
+If you reassign instead of mutate:
+```
+nums = [1, 2, 3]
+print(id(nums))    # e.g. 140347891123456
+
+nums = [1, 4, 3]
+print(id(nums))    # different -> 140347891789101
+```
+Now you created a brand-new list object and reassigned nums to point to it.
+The old list [1, 2, 3] still exists in memory (until garbage-collected), but nothing points to it anymore.
+
+This is acccetable because dictionaries only care about the keys’ identities (hashes), not the values’.
+```
+data = {"numbers": [1, 2, 3]}
+data["numbers"] = [1, 4, 3]
+print(data)
+```
+Output:
+```
+{'numbers': [1, 4, 3]}
+```
+
