@@ -64,9 +64,10 @@ d = list(a)  # d is another copy of the list referenced by a
 ### Dictionaries 
 It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary
 ```
-{
+t = {
     'price': 139.99,
     'Shape': 'Sphere',
     'Earth': (1.00, 365),
 }
 ```
+to get the value of price from dictionary we would use `print(t['price'])`
