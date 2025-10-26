@@ -44,6 +44,11 @@ name, distance, period = li
 ```
 a, b = (1, 2, 3)  # This will raise an exception
 ```
+Tuples can't be modify but we can create new tuples from existing ones
+```t1 = (1, 2, 3)
+t2 = t1 + (4, 5)  # t2 is (1, 2, 3, 4, 5)
+```
+
 ### References and avoidance in modifying original object
 When you assign a variable to another variable, you are creating a reference to the original object, not a copy of it.
 ```
@@ -141,5 +146,7 @@ Output:
 ```
 {'numbers': [1, 4, 3]}
 ```
+
+
 
 
