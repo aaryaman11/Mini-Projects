@@ -45,8 +45,14 @@ name, distance, period = li
 a, b = (1, 2, 3)  # This will raise an exception
 ```
 Tuples can't be modify but we can create new tuples from existing ones
-```t1 = (1, 2, 3)
+```
+t1 = (1, 2, 3)
 t2 = t1 + (4, 5)  # t2 is (1, 2, 3, 4, 5)
+```
+Second scenario to make a new tuple by  discarding the old values. In this case it may look like we modified the original tuple but we created the new one.
+```
+t1 = (1, 2, 3)
+t1 = (t1[0], 4, 5, t[2])  # t1 is now (1, 4, 5, 3)
 ```
 
 ### References and avoidance in modifying original object
