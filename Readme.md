@@ -71,7 +71,14 @@ t = {
     'Earth': (1.00, 365),
 }
 ```
-to get the value of price from dictionary we would use `print(t['price'])`
+To get the value of price from dictionary we would use `print(t['price'])`
+
+We can add and modify the values in the dictionary using the key name
+
+```
+t['price'] = 149.99  # modify existing key
+t['color'] = 'blue'   # add new key-value pair
+```
 #### Disclaimer
  --> A Python dictionary uses hashing to quickly find values by their keys.
 
@@ -134,4 +141,5 @@ Output:
 ```
 {'numbers': [1, 4, 3]}
 ```
+
 
