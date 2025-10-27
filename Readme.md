@@ -92,9 +92,9 @@ t['price'] = 149.99  # modify existing key
 t['color'] = 'blue'   # add new key-value pair
 ```
 Could also obtain all the keys using `keys()` method
+
 ```
 print(t.keys())  # dict_keys(['price', 'Shape', 'Earth', 'color'])
-
 ```
 
 #### Disclaimer
