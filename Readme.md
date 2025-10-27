@@ -48,6 +48,7 @@ Tuples can't be modify but we can create new tuples from existing ones
 ```
 t1 = (1, 2, 3)
 t2 = t1 + (4, 5)  # t2 is (1, 2, 3, 4, 5)
+
 ```
 Second scenario to make a new tuple by  discarding the old values. In this case it may look like we modified the original tuple but we created the new one.
 ```
@@ -90,6 +91,12 @@ We can add and modify the values in the dictionary using the key name
 t['price'] = 149.99  # modify existing key
 t['color'] = 'blue'   # add new key-value pair
 ```
+Could also obtain all the keys using `keys()` method
+```
+print(t.keys())  # dict_keys(['price', 'Shape', 'Earth', 'color'])
+
+```
+
 #### Disclaimer
  --> A Python dictionary uses hashing to quickly find values by their keys.
 
