@@ -28,6 +28,24 @@ variable = None
 if variable is None:
     print("assign variable to a value)
 ```
+### Why Tuples are Immutable?
+Tuples are meant to be simple, fixed collections of items.
+
+Because their contents don’t change, Python can optimize memory usage and access speed.
+
+Immutable objects can be stored more efficiently in memory and even interned (reused) by Python.
+
+Hashability and dictionary keys
+
+Only immutable objects can be hashable, meaning they can be used as keys in dictionaries or elements of sets.
+
+Lists aren’t hashable because they can change, but tuples are:
+
+```
+d = { (1, 2): "value" }  # ✅ Works
+d[[1, 2]] = "value"      # ❌ TypeError
+
+```
 ### Tuples just hold differnet type of values together and they are immutable.
 e.g.
 ```
