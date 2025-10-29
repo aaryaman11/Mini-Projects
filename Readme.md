@@ -102,7 +102,10 @@ To delete a key use `del` statement
 del t['Shape']
 print(t)  # {'price': 149.99, 'Earth': (1.0, 365), 'color': 'blue'} 
 ```
-
+To get key-value pairs we can use `items()` method
+```
+print(t.items())  # dict_items([('price', 149.99), ('Earth', (1.0, 365)), ('color', 'blue')])    
+```
 #### Disclaimer
  --> A Python dictionary uses hashing to quickly find values by their keys.
 
