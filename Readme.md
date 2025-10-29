@@ -97,6 +97,12 @@ Could also obtain all the keys using `keys()` method
 print(t.keys())  # dict_keys(['price', 'Shape', 'Earth', 'color'])
 ```
 
+To delete a key use `del` statement
+```
+del t['Shape']
+print(t)  # {'price': 149.99, 'Earth': (1.0, 365), 'color': 'blue'} 
+```
+
 #### Disclaimer
  --> A Python dictionary uses hashing to quickly find values by their keys.
 
