@@ -188,5 +188,3 @@ Output:
 ```
 ## Containers
 
-
-
