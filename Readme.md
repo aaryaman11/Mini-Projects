@@ -187,4 +187,7 @@ Output:
 {'numbers': [1, 4, 3]}
 ```
 ## Containers
-
+There are 3 mian type of objects which are used mainly
+* List. Ordered data 
+* Dictionary. Unordered data
+* sets. Unordered data with  unique values  
