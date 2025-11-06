@@ -202,5 +202,5 @@ k = [
 ]
 k[1] # ("Max", 3.4, 8)
 ```
-
+We can construct a list by initializing it `li = [] # empty list`
 
