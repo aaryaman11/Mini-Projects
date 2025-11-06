@@ -190,4 +190,17 @@ Output:
 There are 3 mian type of objects which are used mainly
 * List. Ordered data 
 * Dictionary. Unordered data
-* sets. Unordered data with  unique values  
+* Sets. Unordered data with unique values  
+
+### Lists
+It is useful when order of the data matters. Also it can hold any kind of object  
+For example, a list of tuples:
+```
+k = [
+    ("tik", 1.3, 4),
+    ("Max", 3.4, 8)
+]
+k[1] # ("Max", 3.4, 8)
+```
+
+
