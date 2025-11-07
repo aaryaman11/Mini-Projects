@@ -223,3 +223,12 @@ print(t['price'])  # 139.99
 ```
 Construct a dictionary by  `t = {}` and add key-value pairs by `t['price'] = 149.99`  # modify existing key
 t['color'] = 'blue'   # add new key-value pair
+
+##### Dict to open file and read contents
+```
+p = {}
+with open('Sample/solar.csv') as f:
+    for line in f:
+        row = line.split(',')
+        p[row[0]] = float(row[1])
+```
