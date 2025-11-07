@@ -204,7 +204,7 @@ k[1] # ("Max", 3.4, 8)
 ```
 We can construct a list by initializing it `li = [] # empty list` and we can add more items in the list by using the append methiod ` li.append(3) # li = [3]`
 
-**Side note --> split() method also makes a list object when used to split stuff after ',' or whatever delimeter is used**
+**Side note --> split() method also makes a list object. When split(',') is used with separator --> ',' it would split the string seperated by comma or (,) # '"AA", 99.2' --> ['"AA"', '99.2']**
 
 ### Dictionary
 It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary. Also it could be used for fast radom lookup of values by their keys.
