@@ -221,3 +221,5 @@ Simple lookup examples:
 ```
 print(t['price'])  # 139.99
 ```
+Construct a dictionary by  `t = {}` and add key-value pairs by `t['price'] = 149.99`  # modify existing key
+t['color'] = 'blue'   # add new key-value pair
