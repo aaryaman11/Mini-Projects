@@ -232,7 +232,18 @@ with open('Sample/solar.csv') as f:
         row = line.split(',')
         p[row[0]] = float(row[1])
 ```
-If a value or key-value pair that might not exist in the dictionary, we can use `get()` method and provide a default value, to avoid exceptions
+> If a value or key-value pair that might not exist in the dictionary, we can use `get()` method and provide a default value, to avoid exceptions
 ```
 print(t.get('mass', 0))  # 0
+
+d = {'a': 1, 'b': 2}
+value = d.get('a', 99)
+print(value)  # Output: 1
+
+
+d = {'a': 1, 'b': 2}
+value = d.get('x', 99) # key 'x' does not exist
+print(value)  # Output: 99
+
+
 ```
