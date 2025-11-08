@@ -232,3 +232,7 @@ with open('Sample/solar.csv') as f:
         row = line.split(',')
         p[row[0]] = float(row[1])
 ```
+If a value that might not exist in the dictionary, we can use `get()` method and provide a default value, to avoid exceptions
+```
+print(t.get('mass', 0))  # 0
+```
