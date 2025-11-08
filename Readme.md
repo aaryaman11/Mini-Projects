@@ -245,5 +245,4 @@ d = {'a': 1, 'b': 2}
 value = d.get('x', 99) # key 'x' does not exist
 print(value)  # Output: 99
 
-
 ```
