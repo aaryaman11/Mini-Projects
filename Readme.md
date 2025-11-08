@@ -251,4 +251,7 @@ Any type of value could be used as key in a dictionary as long as it is immutabl
 t[(1, 2)] = "Point A"
 print(t[(1, 2)])  # Output: Point A
 
+check = {
+    
+}
 ```
