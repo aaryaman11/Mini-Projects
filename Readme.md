@@ -252,6 +252,7 @@ t[(1, 2)] = "Point A"
 print(t[(1, 2)])  # Output: Point A
 
 check = {
-    
+    (2024, 6, 1): "Start of June",
+    (2024, 12, 25): "Christmas"
 }
 ```
