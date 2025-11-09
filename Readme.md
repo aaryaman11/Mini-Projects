@@ -259,3 +259,5 @@ check = {
  > can't use sets or lists or dictionaries as keys because they are mutable and their contents can change over time.
 
  ### Sets
+ Collection of unordered unique valus
+  
