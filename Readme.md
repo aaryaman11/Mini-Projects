@@ -265,3 +265,4 @@ names = ['IBM', 'AAPL', 'GOOG', 'IBM', 'GOOG', 'YHOO']
 unique_names = set(names)
 print(unique_names)  # Output: {'AAPL', 'IBM', 'GOOG', 'YHOO'}
 ```
+To add an item to a set use `add()` method
