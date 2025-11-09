@@ -260,4 +260,8 @@ check = {
 
  ### Sets
  Collection of unordered unique valus
-  
+```
+names = ['IBM', 'AAPL', 'GOOG', 'IBM', 'GOOG', 'YHOO']
+unique_names = set(names)
+print(unique_names)  # Output: {'AAPL', 'IBM', 'GOOG', 'YHOO'}
+```
