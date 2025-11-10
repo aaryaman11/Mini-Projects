@@ -247,6 +247,7 @@ print(value)  # Output: 99
 ```
 
 Any type of value could be used as key in a dictionary as long as it is immutable like strings, numbers, or tuples.
+
 ```
 t[(1, 2)] = "Point A"
 print(t[(1, 2)])  # Output: Point A
