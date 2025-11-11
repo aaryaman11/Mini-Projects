@@ -234,7 +234,7 @@ with open('Sample/solar.csv') as f:
 ```
 > If a value or key-value pair that might not exist in the dictionary, we can use `get()` method and provide a default value, to avoid exceptions
 ```
-print(t.get('mass', 0))  # 0
+print(t.get('mass', 0))  # 0 default value if mass doesn't exist or doesn't have value
 
 d = {'a': 1, 'b': 2}
 value = d.get('a', 99)
