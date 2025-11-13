@@ -211,7 +211,7 @@ It is mapping keys to value, and the keys could also be use as indices to access
 
 ```
 t = {
-    'price': 139.99,
+    'Stock_price': 139.99,
     'Shape': 'Sphere',
     'Earth': (1.00, 365),
 }
