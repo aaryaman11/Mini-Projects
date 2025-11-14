@@ -210,7 +210,7 @@ We can construct a list by initializing it `li = [] # empty list` and we can add
 It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary. Also it could be used for fast radom lookup of values by their keys.
 
 ```
-t = {
+k = {
     'Stock_price': 139.99,
     'Shape': 'Sphere',
     'Earth': (1.00, 365),
