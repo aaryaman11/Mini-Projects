@@ -73,7 +73,7 @@ Second scenario to make a new tuple by  discarding the old values. In this case 
 t1 = (1, 2, 3)
 t1 = (t1[0], 4, 5, t[2])  # t1 is now (1, 4, 5, 3)
 ```
-
+**Tuples can be accesesd like list elements --> k = ('AA', 3, 5.6) --> print(k[1]) # 3**
 ### References and avoidance in modifying original object
 When you assign a variable to another variable, you are creating a reference to the original object, not a copy of it.
 ```
