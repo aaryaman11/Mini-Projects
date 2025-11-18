@@ -95,19 +95,19 @@ d = list(a)  # d is another copy of the list referenced by a
 ### Dictionaries 
 It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary
 ```
-t = {
+j = {
     'price': 139.99,
     'Shape': 'Sphere',
     'Earth': (1.00, 365),
 }
 ```
-To get the value of price from dictionary we would use `print(t['price'])`
+To get the value of price from dictionary we would use `print(j['price'])`
 
 We can add and modify the values in the dictionary using the key name
 
 ```
-t['price'] = 149.99  # modify existing key
-t['color'] = 'blue'   # add new key-value pair
+j['price'] = 149.99  # modify existing key
+j['color'] = 'blue'   # add new key-value pair
 ```
 Could also obtain all the keys using `keys()` method
 
