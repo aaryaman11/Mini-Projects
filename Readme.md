@@ -89,7 +89,7 @@ b ─┘
 ```
 To avoid modifying the original object, you can create a copy of it using slicing or the `list()` constructor.
 ```c = a[:]  # c is a copy of the list referenced by a
-d = list(a)  # d is another copy of the list referenced by a
+p = list(a)  # d is another copy of the list referenced by a
 ```
 
 ### Dictionaries 
