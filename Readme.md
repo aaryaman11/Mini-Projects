@@ -112,7 +112,7 @@ j['color'] = 'blue'   # add new key-value pair
 Could also obtain all the keys using `keys()` method
 
 ```
-print(t.keys())  # dict_keys(['price', 'Shape', 'Earth', 'color'])
+print(j.keys())  # dict_keys(['price', 'Shape', 'Earth', 'color'])
 ```
 
 To delete a key use `del` statement
