@@ -117,8 +117,8 @@ print(t.keys())  # dict_keys(['price', 'Shape', 'Earth', 'color'])
 
 To delete a key use `del` statement
 ```
-del t['Shape']
-print(t)  # {'price': 149.99, 'Earth': (1.0, 365), 'color': 'blue'} 
+del j['Shape']
+print(j)  # {'price': 149.99, 'Earth': (1.0, 365), 'color': 'blue'} 
 ```
 To get key-value pairs we can use `items()` method
 ```
