@@ -178,13 +178,13 @@ The old list [1, 2, 3] still exists in memory (until garbage-collected), but not
 
 This is acccetable because dictionaries only care about the keys’ identities (hashes), not the values’.
 ```
-data = {"numbers": [1, 2, 3]}
-data["numbers"] = [1, 4, 3]
+data = {"numbers": [5, 2, 3]}
+data["numbers"] = [5, 4, 3]
 print(data)
 ```
 Output:
 ```
-{'numbers': [1, 4, 3]}
+{'numbers': [5, 4, 3]}
 ```
 ## Containers
 There are 3 mian type of objects which are used mainly
