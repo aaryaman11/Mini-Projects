@@ -198,9 +198,9 @@ For example, a list of tuples:
 ```
 k = [
     ("tik", 1.3, 4),
-    ("Max", 3.4, 8)
+    ("Mike", 3.4, 8)
 ]
-k[1] # ("Max", 3.4, 8)
+k[1] # ("Mike", 3.4, 8)
 ```
 We can construct a list by initializing it `li = [] # empty list` and we can add more items in the list by using the append methiod ` li.append(3) # li = [3]`
 
