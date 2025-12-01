@@ -197,7 +197,7 @@ It is useful when order of the data matters. Also it can hold any kind of object
 For example, a list of tuples:
 ```
 k = [
-    ("tik", 1.3, 4),
+    ("tate", 1.3, 4),
     ("Mike", 3.4, 8)
 ]
 k[1] # ("Mike", 3.4, 8)
