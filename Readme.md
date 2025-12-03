@@ -269,6 +269,6 @@ print(unique_names)  # Output: {'AAPL', 'IBM', 'GOOG', 'YHOO'}
 To add an item to a set use `add()` method and to remove an item use `remove()` method
 
 ```
-unique.add('CAT')        # Add an item
+unique.add('TSLA')        # Add an item
 unique.remove('YHOO')    # Remove an item
 ```
