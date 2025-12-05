@@ -254,7 +254,8 @@ print(t[(1, 2)])  # Output: Point B
 
 check = {
     (2024, 6, 1): "Start of June",
-    (2024, 12, 25): "Christmas"
+    (2024, 12, 25): "Christmas",
+    (2024, 1, 1): "New Year's Day"
 }
 ```
  > can't use sets or lists or dictionaries as keys because they are mutable and their contents can change over time.
