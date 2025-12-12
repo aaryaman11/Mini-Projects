@@ -10,13 +10,9 @@ raise RuntimeError('This is a runtime error')
 This will catch the exception and allow the program to continue running
 ```
 try:
-    # code that may raise an exception
-    for line in file:
-    fields = line.split(',')
-    try:
-        shares = int(fields[1])
-    except ValueError:
-        print("Couldn't parse", line)
+    shares = int(fields[1])
+except ValueError:
+     print("Couldn't parse", line)
 ```
 
 ### Files as an Argument for script 
