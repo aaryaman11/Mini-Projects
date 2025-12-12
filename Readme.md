@@ -6,6 +6,7 @@ This will abort the program and show an exception traceback
 ```
 raise RuntimeError('This is a runtime error')
 ```
+### Try and excception block
 
 ### Files as an Argument for script 
 `sys.argv` is a list of command line arguments passed to the script.
