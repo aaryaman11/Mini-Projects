@@ -281,3 +281,5 @@ To add an item to a set use `add()` method and to remove an item use `remove()` 
 unique.add('TSLA')        # Add an item
 unique.remove('YHOO')    # Remove an item
 ```
+
+## Formating 
