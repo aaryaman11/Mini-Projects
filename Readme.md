@@ -269,7 +269,7 @@ check = {
  > can't use sets or lists or dictionaries as keys because they are mutable and their contents can change over time.
 
  ### Sets
- Collection of unordered unique valus
+ Collection of unordered unique values
 ```
 names = ['IBM', 'AAPL', 'GOOG', 'IBM', 'GOOG', 'YHOO']
 unique_names = set(names)
