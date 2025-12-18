@@ -215,7 +215,7 @@ We can construct a list by initializing it `li = [] # empty list` and we can add
 **Side note --> split() method also makes a list object. When split(',') is used with separator --> ',' it would split the string seperated by comma or (,) # '"AA", 99.2' --> ['"AA"', '99.2']. If we used another separator like (#) --> split('#') and the string doesn't have that like '"AA", 99.2'. The whole string will be in the list object as 1 item instead of 2 differet strings in a list like the original. Example for -->(#) '"AA", 99.2' --> ['"AA", 99.2']**
 
 ### Dictionary
-It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary. Also it could be used for fast radom lookup of values by their keys.
+It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary. Also it could be used for fast random lookup of values by their keys.
 
 ```
 k = {
