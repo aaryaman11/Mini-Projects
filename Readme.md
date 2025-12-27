@@ -286,7 +286,7 @@ unique.remove('YHOO')    # Remove an item
 one way to format is to use f-strings
 ```
 name = "Earth"
-distance = 4.00
+distance = 2.00
 period = 365
 print(f"{name}: distance = {distance} AU, period = {period} days")
 ```
