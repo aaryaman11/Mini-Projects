@@ -114,7 +114,7 @@ To get the value of price from dictionary we would use `print(j['price'])`
 We can add and modify the values in the dictionary using the key name
 
 ```
-j['price'] = 149.99  # modify existing key
+j['price'] = 148.99  # modify existing key
 j['color'] = 'blue'   # add new key-value pair
 ```
 Could also obtain all the keys using `keys()` method
