@@ -97,7 +97,7 @@ a ─┬──> [1, 2, 3]
 b ─┘
 ```
 To avoid modifying the original object, you can create a copy of it using slicing or the `list()` constructor.
-```c = a[:]  # c is a copy of the list referenced by a
+```k = a[:]  # c is a copy of the list referenced by a
 p = list(a)  # p is another copy of the list referenced by a
 ```
 
