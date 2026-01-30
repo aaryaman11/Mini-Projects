@@ -2,7 +2,7 @@
 
 ## Functions
 ### Raise Exception
-This will abort the program and show an exception traceback
+This will abort the program and show an exception trace back
 ```
 raise RuntimeError('This is a runtime error')
 ```
