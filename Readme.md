@@ -48,7 +48,7 @@ Hashability and dictionary keys
 Only immutable objects can be hashable, meaning they can be used as keys in dictionaries or elements of sets.
 
 Lists aren’t hashable because they can change, but tuples are:
-- For dictionary keys it calculate the hash based on the content of the tuple at creation time and uses that hash to store and retrieve the value.
+- For dictionary keys it calculate the hash based on the content or lenth of the tuple at creation time and uses that hash to store and retrieve the value.
 
 ```
 d = { (1, 2): "value" }  # ✅ Works
