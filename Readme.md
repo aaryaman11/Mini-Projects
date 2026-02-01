@@ -144,7 +144,7 @@ Because of this:
 
 Keys must be hashable → meaning their hash value cannot change during their lifetime.
 
-Therefore, mutable types (like lists, dicts, sets) cannot be keys — because if their contents change, their hash would change, and the dictionary would no longer be able to find them in the right “bucket”.  
+Therefore, mutable types (like lists, dicts, sets) cannot be keys — because if their content changes, their hash would change, and the dictionary would no longer be able to find them in the right “bucket”.  
 
 *  Values can be any type — mutable or immutable.
 
