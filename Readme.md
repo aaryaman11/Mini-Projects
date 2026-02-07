@@ -105,7 +105,7 @@ p = list(a)  # p is another copy of the list referenced by a
 It is mapping keys to value, and the keys could also be use as indices to access values in the hash table or dictionary
 ```
 j = {
-    'price': 139.99,
+    'price': 129.99,
     'Shape': 'Sphere',
     'Earth': (2.00, 366),
 }
