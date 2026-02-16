@@ -86,7 +86,7 @@ t1 = (t1[0], 4, 5, t[2])  # t1 is now (1, 4, 5, 3)
 ### References and avoidance in modifying original object
 When you assign a variable to another variable, you are creating a reference to the original object, not a copy of it.
 ```
-a = [1, 2, 3]
+a = [1, 2, 3, 4]
 b = a  # b references the same list as a
 b.append(4)
 print(a)  # Output: [1, 2, 3, 4]
