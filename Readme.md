@@ -93,7 +93,7 @@ print(a)  # Output: [1, 2, 3, 4]
 ```
 Memory Diagram:
 ```
-a ─┬──> [1, 2, 3]
+a ─┬──> [1, 2, 3, 4]
 b ─┘
 ```
 To avoid modifying the original object, you can create a copy of it using slicing or the `list()` constructor.
