@@ -116,7 +116,7 @@ We can add and modify the values in the dictionary using the key name
 
 ```
 j['price'] = 148.99  # modify existing key
-j['color'] = 'blue'   # add new key-value pair
+j['color'] = 'green'   # add new key-value pair
 ```
 Could also obtain all the keys using `keys()` method
 
