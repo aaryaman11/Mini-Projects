@@ -193,7 +193,7 @@ print(id(nums))    # different -> 140347891789101
 Now you created a brand-new list object and reassigned nums to point to it.
 The old list [1, 2, 3] still exists in memory (until garbage-collected), but nothing points to it anymore.
 
-This is acccetable because dictionaries only care about the keys’ identities (hashes), not the values’.
+This is acccetable because dictionaries only care about the keys’ identities (hashes) and the content in keys, not the values’.
 ```
 data = {"numbers": [5, 2, 3]}
 data["numbers"] = [5, 4, 3]
