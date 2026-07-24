@@ -7,7 +7,7 @@ This will abort the program and show an exception trace back
 raise RuntimeError('This is a runtime error')
 ```
 ### Try and exception block
-This will catch the exception and allow the program to continue running. Also, it is used after a program has unexpectdingly crashed(i.e, we for forgot to catch this error before let's fix it now!) 
+This will catch the exception and allow the program to continue running. Also, it is used after a program has unexpectdingly crashed(i.e, we forgot to catch this error before let's fix it now!) 
 ```
 try:
     shares = int(fields[1])
