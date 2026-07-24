@@ -115,6 +115,11 @@ j = {
 ```
 To get the value of price from dictionary we would use `print(j['price'])`
 
+> what if I do `print(j[0])` will i get the whole pair
+> * No Indexing: Dictionaries in Python use keys, not numbers (indexes), to look up items.
+> * Key Lookup: j[0] tells Python to search for a key that is literally the number 0, which does not exist in this dictionary.
+> * Tuple Exception: This would only work if we explicitly created a key named 0, like {0: 'value'}.
+
 We can add and modify the values in the dictionary using the key name
 
 ```
@@ -134,7 +139,7 @@ print(j)  # {'price': 148.99, 'Earth': (2.0, 365), 'color': 'blue'}
 ```
 To get key-value pairs we can use `items()` method
 ```
-print(t.items())  # dict_items([('price', 149.99), ('Earth', (1.0, 365)), ('color', 'blue')])    
+print(j.items())  # dict_items([('price', 149.99), ('Earth', (1.0, 365)), ('color', 'blue')])    
 ```
 #### Disclaimer
  --> A Python dictionary uses hashing to quickly find values by their keys.
