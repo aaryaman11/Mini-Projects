@@ -197,6 +197,7 @@ This is acccetable because dictionaries only care about the keys’ identities (
 > Step 1 (Hash Check): Python follows the pointer of my_list to Address X. It finds the correct bucket. 
 > (Success!)Step 2 (Equality Check): Python asks: Does the current key match the key we indexed?. It compares your current list [1, 4, 3] against the value it originally indexed [1, 2, 3].
 > The Crash: Because [1, 4, 3] == [1, 2, 3] is False, Python thinks: "Ah, this must be a hash collision. This is a different object that just happens to live at the same address or share a hash." Python refuses to return the value and throws a KeyError.
+
 ```
 data = {"numbers": [5, 2, 3]}
 data["numbers"] = [5, 4, 3]
